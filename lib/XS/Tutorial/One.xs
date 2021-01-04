@@ -2,6 +2,7 @@
 #include "EXTERN.h"         // globals/constant import locations
 #include "perl.h"           // Perl symbols, structures and constants definition
 #include "XSUB.h"           // xsubpp functions and macros
+#include "ppport.h"
 #include <stdlib.h>         // rand, srand
 
 // additional c code goes here

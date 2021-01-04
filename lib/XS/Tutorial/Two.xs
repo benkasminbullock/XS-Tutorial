@@ -2,7 +2,8 @@
 #include "EXTERN.h"         // globals/constant import locations
 #include "perl.h"           // Perl symbols, structures and constants definition
 #include "XSUB.h"           // xsubpp functions and macros
-#include "stdint.h"         // portable integers
+#include "ppport.h"
+#include <stdint.h>         // portable integers
 
 MODULE = XS::Tutorial::Two  PACKAGE = XS::Tutorial::Two
 PROTOTYPES: ENABLE
